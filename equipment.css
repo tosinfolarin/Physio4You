@@ -1,0 +1,120 @@
+
+body {
+    background-color: #fbf4edea;
+    margin: 0; 
+}
+
+
+
+ul {
+    list-style: none;
+    background-color: rgb(240, 230, 230);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px; 
+    
+}
+
+ul li a {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 15 10px; 
+  
+}
+
+.equip {
+    color: rgb(190, 170, 145);
+    padding-left: 15px;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+button {
+    background-color:  rgb(220, 201, 177);
+    margin: 0 5px; 
+    border-radius: 2px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    cursor: pointer; /* pointer cursor for interactivity */
+}
+
+
+.equipment-container {
+    border: 2px solid #000000; 
+    padding: 10px; 
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:rgb(220, 201, 177);
+    
+}
+
+
+.equipment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.equipment-inner-container {
+    border: 2px solid #ddd; 
+    padding: 10px;
+    border-radius: 8px;
+} 
+
+.ProductPicture img {
+    max-width: 100px; 
+    max-height: 100px;
+    object-fit: cover; 
+    margin-left: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    mix-blend-mode: multiply; /*removes the background of the picture*/
+}
+
+
+
+.PlussignImg img {
+    max-width: 50px; 
+    max-height: 50px; 
+    object-fit: cover; /* Maintains the ratio and covers the entire container */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally by setting left and right margins to auto */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    mix-blend-mode: multiply; /* Removes the background */
+}
+
+.plusbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 0 5px;
+    border-radius: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: grey;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers the content horizontally */
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    background-color:  rgb(220, 201, 177);
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerlist{
+    background-color:  rgb(220, 201, 177);
+
+}
